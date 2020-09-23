@@ -19,15 +19,15 @@ function global:au_GetLatest {
   $releases = 'https://derivative.ca/download'
   $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
   # $url32 = $download_page.Links | ? href -match 'TouchDesigner088.[0-9]+\.32-Bit\.exe' | % href | select -First 1
-  $url64 = $download_page.Links | ? href -match 'TouchDesigner.[0-9]+\.exe' | % href | select -First 1
+  $url64 = $download_page.Links | ? href -match 'TouchDesigner.[0-9]+\.[0-9]+\.exe' | % href | select -First 1
   # $version32 = $url32 -replace '.*TouchDesigner088.([0-9]+)\.32-Bit\.exe.*', '$1'
-  $version64 = $url64 -replace '.*TouchDesigner.([0-9]+)\.exe.*', '$1'
+  $version64 = $url64 -replace '.*TouchDesigner.([0-9]+\.[0-9]+)\.exe.*', '$1'
 
   @{
     SoftwareName = 'TouchDesigner 099'
     Version      = "$version64"
     # URL32        = "https://www.derivative.ca$url32"
-    URL64        = "https://www.derivative.ca$url64"
+    URL64        = "$url64"
   }
 }
 
