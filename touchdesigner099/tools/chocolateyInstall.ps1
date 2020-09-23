@@ -1,17 +1,14 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageArgs = @{
-  packageName            = 'touchdesigner'
+  packageName            = 'touchdesigner099'
   fileType               = 'exe'
-  url                    = 'https://www.derivative.ca/Builds/TouchDesigner088.62160.32-Bit.exe'
-  url64bit               = 'https://www.derivative.ca/Builds/TouchDesigner088.62160.64-Bit.exe'
-  checksum               = 'e216f4536503393cb38f5ba6e02420a098f6696f109d3b16ecde02feaf00d37b'
-  checksum64             = '5927eb66795735d7f675d992207e45063b1883c5c5a862a9a69bd12fa189ca63'
-  checksumType           = ''
-  checksumType64         = 'sha256'
+  url64bit               = 'https://download.derivative.ca/TouchDesigner.2020.25380.exe'
+  checksum64             = '5927eb66795735d7f675d992207e45063b1e229305702ad2d036076719407c7a09ec2cc33bc490359cd9fa4d6c8632077bc3208cd3379cd5f3063c6ec97b7466650bb9b71e4101ca80dc8870f89bd3e2c6b883c5c5a862a9a69bd12fa189ca63'
+  checksumType64         = 'sha512'
   silentArgs             = '/quiet'
   validExitCodes         = @(0)
-  softwareName           = 'TouchDesigner 088'
+  softwareName           = 'TouchDesigner 099'
 }
 
 Write-Host
