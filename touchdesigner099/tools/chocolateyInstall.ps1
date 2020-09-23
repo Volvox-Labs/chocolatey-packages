@@ -13,7 +13,7 @@ $packageArgs = @{
 
 Write-Host
 Write-Host "For commercial use of TouchDesigner, you need a commercial or pro license." -ForegroundColor "White"
-Write-Host "See: https://www.derivative.ca/shop/" -ForegroundColor "White"
+Write-Host "See: https://derivative.ca/shop/" -ForegroundColor "White"
 Write-Host
 
 Install-ChocolateyPackage @packageArgs
