@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>touchdesigner099</id>
+    <title>Touchdesigner099</title>
+    <version>2020.2538</version>
+    <authors>Derivative</authors>
+    <owners>Volvox Labs</owners>
+    <tags>vj live video compositing projection mapping interactive show cross-platform</tags>
+    <projectUrl>https://www.derivative.ca/</projectUrl>
+    <licenseUrl>https://www.derivative.ca/Agreements/UsageAgreementTouchDesigner.asp</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/Volvox-Labs/chocolatey-packages/master/touchdesigner099/icon/touchdesigner.jpg</iconUrl>
+    <packageSourceUrl>https://github.com/Volvox-Labs/chocolatey-packages/tree/master/touchdesigner099</packageSourceUrl>
+    <docsUrl>https://docs.derivative.ca/</docsUrl>
+    <summary>TouchDesigner is a node based visual programming language for real time interactive multimedia content, developed by the Toronto-based company Derivative.</summary>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/hluk/CopyQ/releases/tag/v3.0.0</releaseNotes>
+    <description>TouchDesigner is a node based visual programming language for real time interactive multimedia content, developed by the Toronto-based company Derivative. It's been used by artists, programmers, creative coders, software designers, and performers to create performances, installations, and fixed media works.
+
+###PROJECTION MAPPING
+Combining built-in 3D to simulate real-world objects, multi-projector outputs, and ultra resolution video engine, TouchDesigner is ready for any projection mapping project.
+
+###INTEROPERABILITY
+Native support for input devices, web connectivity, video and audio devices, and network-based communication. TouchDesigner is the hub that brings these all together.
+
+###HIGH PERFORMANCE MEDIA SYSTEMS
+Ultra resolution video playback which maximizes your hardware power will let you do more with less. Complete customizability to dream up a media server for any unique requirement.
+
+    </description>
+
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
