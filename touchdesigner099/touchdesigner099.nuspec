@@ -11,7 +11,7 @@
     <tags>vj live video compositing projection mapping interactive show cross-platform</tags>
     <projectUrl>https://www.derivative.ca/</projectUrl>
     <licenseUrl>https://www.derivative.ca/Agreements/UsageAgreementTouchDesigner.asp</licenseUrl>
-    <iconUrl>https://raw.githubusercontent.com/Volvox-Labs/chocolatey-packages/master/touchdesigner099/icon/touchdesigner.jpg</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/Volvox-Labs/chocolatey-packages/master/touchdesigner099/icon/touchdesigner.png</iconUrl>
     <packageSourceUrl>https://github.com/Volvox-Labs/chocolatey-packages/tree/master/touchdesigner099</packageSourceUrl>
     <docsUrl>https://docs.derivative.ca/</docsUrl>
     <summary>TouchDesigner is a node based visual programming language for real time interactive multimedia content, developed by the Toronto-based company Derivative.</summary>
