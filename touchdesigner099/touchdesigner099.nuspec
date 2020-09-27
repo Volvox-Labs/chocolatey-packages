@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>touchdesigner099</id>
     <title>Touchdesigner099</title>
-    <version>2020.25380</version>
+    <version>2020.26630</version>
     <authors>Derivative</authors>
     <owners>Volvox Labs</owners>
     <tags>vj live video compositing projection mapping interactive show cross-platform</tags>
